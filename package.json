@@ -1,0 +1,27 @@
+{
+  "name": "mongodb-node-driver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./api/app.js 0.0.0.0 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grgueiros/mongodb-node-driver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grgueiros/mongodb-node-driver/issues"
+  },
+  "homepage": "https://github.com/grgueiros/mongodb-node-driver#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongodb": "^4.2.2"
+  }
+}
